@@ -24,4 +24,19 @@ public class UsersController {
     @GetMapping("/403")
     public String getAccessDeniadPage() {return "403";}
 
+    @GetMapping("/hungarianExpressions")
+    public String getExpressionsPage() {return "hungarianExpressions";}
+
+    @GetMapping("/partyEvents")
+    public String getPartyOption() {return "partyEvents";}
+
+    @GetMapping("/studyEvents")
+    public String getStudyEvents() {return "studyEvents";}
+
+    @GetMapping("/culturalEvents")
+    public String getCulturalEvents() {return "culturalEvents";}
+
+    @GetMapping("/newEventAddition")
+    public String getNewEvent() {return "newEventAddition";}
+
 }
